@@ -17,6 +17,4 @@ class PhlexArrowCommon(CMakePackage):
     depends_on("cmake@3.25:", type="build")
 
     depends_on("arrow")
-    depends_on("boost")
     depends_on("phlex")
-    depends_on("spdlog")

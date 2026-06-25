@@ -17,10 +17,8 @@ class PhlexArrowHdf(CMakePackage):
     depends_on("cmake@3.25:", type="build")
 
     depends_on("arrow")
-    depends_on("boost")
     depends_on("hdf5")
-    depends_on("spdlog")
-    depends_on("tbb")
+    depends_on("spdlog")  # directly used in this package's sources
     depends_on("phlex")
     depends_on("arrow-hdf")
     depends_on("phlex-arrow-common")

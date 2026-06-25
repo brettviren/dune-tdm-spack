@@ -18,8 +18,6 @@ class DuneDaqArrowFrameHdf(CMakePackage):
     depends_on("cmake@3.25:", type="build")
 
     depends_on("arrow")
-    depends_on("boost")
-    depends_on("spdlog")
     depends_on("arrow-hdf")
     depends_on("dune-daq-codec")
     depends_on("dune-daq-hdf")

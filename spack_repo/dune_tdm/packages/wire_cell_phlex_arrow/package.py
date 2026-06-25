@@ -17,9 +17,6 @@ class WireCellPhlexArrow(CMakePackage):
     depends_on("cmake@3.25:", type="build")
 
     depends_on("arrow")
-    depends_on("boost")
-    depends_on("spdlog")
-    depends_on("tbb")
     depends_on("phlex")
     depends_on("wire-cell-toolkit")
     depends_on("phlex-arrow-common")

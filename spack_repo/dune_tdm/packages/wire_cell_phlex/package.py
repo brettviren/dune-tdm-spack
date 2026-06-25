@@ -16,7 +16,6 @@ class WireCellPhlex(CMakePackage):
     depends_on("cxx", type="build")
     depends_on("cmake@3.25:", type="build")
 
-    depends_on("boost")
-    depends_on("tbb")
+    depends_on("boost")  # directly used in this package's sources
     depends_on("phlex")
     depends_on("wire-cell-toolkit")
